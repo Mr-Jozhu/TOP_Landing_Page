@@ -3,12 +3,12 @@ body .landing-page {
     flex-direction: column;
     min-height: 1200px;
 }
-.container {
+.container-main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     max-width: 100%;
-    min-height: 1200px;
+    min-height: 800px;
     background-color: red;
 }
