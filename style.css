@@ -1,14 +1,64 @@
+@font-face {
+    font-family: 'Star_Jedi';
+    src: url("./fonts/star_jedi/starjedi/Starjedi.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("./fonts/roboto/Roboto-Regular.ttf");
+}
+
+* {
+    margin: 0;
+}
+
 body .landing-page {
     display: flex;
     flex-direction: column;
-    min-height: 1200px;
+    min-height: 100vh;
 }
 .container-main {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    max-width: 100%;
-    min-height: 800px;
+    min-height: 100vh;
     background-color: red;
+}
+
+.header {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 15px 180px;
+}
+
+.menu ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex: 0 1 auto;
+}
+
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.mainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    font-size: 18px;
+    text-align: center;
+    gap: 40px;
+    flex: 1;
 }
