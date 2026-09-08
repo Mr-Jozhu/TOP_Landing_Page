@@ -20,7 +20,7 @@ body .landing-page {
 .container-main {
     display: flex;
     flex-direction: column;
-    min-height: 1050px;
+    min-height: 980px;
     background-color: #2d3a5e;
 }
 
@@ -127,4 +127,5 @@ h2 {
     align-items: center;
     justify-self: center;
     border: 2px solid #2d3a5e;
+    border-radius: 12px;
 }
