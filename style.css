@@ -92,6 +92,8 @@ a {
 .mainer #content {
     display: flex;
     flex-direction: column;
+    gap: 20px;
+    max-height: 238px;
 }
 
 .second-section {
@@ -142,4 +144,40 @@ h2 {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.quote {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: azure;
+    height: 400px;
+    width: 100%;
+    padding: 80px;
+}
+
+.phrase {
+    display: flex;
+    flex: 2 1;
+    text-align: center;
+    align-items: center;
+    font-size: xx-large;
+    position: relative;
+    z-index: 2;
+}
+
+.author {
+    display: flex;
+    flex: 1 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Yoda {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    height: 200px;
+    align-self: self-start;
+    justify-self: end;
+    margin-top: 115px;
 }
