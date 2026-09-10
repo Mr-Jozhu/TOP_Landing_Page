@@ -181,3 +181,31 @@ h2 {
     justify-self: end;
     margin-top: 115px;
 }
+
+/* Cuarta Seccion */
+
+.call2action {
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: blanchedalmond;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    padding: 50px 90px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    flex: auto;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    padding: 25px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+/* footer */
